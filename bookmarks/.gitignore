@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pypackages__/
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+dist/
+eggs/
+lib64/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.whl
+MANIFEST.in
+*.manifest
+
+# Installer logs
+*.install.log
+install.log
+
+# VCS directories
+.git
+.svn
+.hg
+.bzr
+_darcs
+_build
+
+# Environments
+.venv
+venv
+env.bak
+venv.bak
+
+# Pyenv
+.python-version
+
+# Jupyter Notebook related files
+.ipynb_checkpoints/
+
+# Django-specific
+*.log
+*.pot
+media/  # If you don't want to track user-uploaded media
+staticfiles/  # If you don't want to track collected static files
+*.sqlite3
+db.sqlite3-*
+local_settings.py
+local_settings.json
+instance/
+
+# OS or Editor related
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*.vscode/
+
+# Other temporary files
+tmp/
+temp/
+*.tmp
