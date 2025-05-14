@@ -13,7 +13,7 @@
     <span class="logo">Bookmarks</span>
     {% if request.user.is_authenticated %}
      <ul>
-        <li>  {% if section == "dashboard" %}class="selected" {% endif %}
+        <li>  {% if section == "dashboard" %} class="selected" {% endif %}
              <a href="{% url "dashboard" %}">MY DASHBOARD</a>
         </li>
         <li> 
